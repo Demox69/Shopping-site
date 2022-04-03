@@ -51,6 +51,7 @@ img {
   margin-right: 6.75rem;
   font-size: 1.25rem;
 }
+
 .buy {
   background-color: #82f5f5; /* Green */
   border: none;
@@ -58,6 +59,12 @@ img {
   padding: 10px 10px;
   margin-right: 1rem;
   font-size: 1rem;
+  transition: transform border-radius 1s ease-in-out;
+}
+
+.buy:hover {
+  transform: scale(1.2);
+  border-radius: 5px;
 }
 
 /* -----------------CART PAGE ------------- */
